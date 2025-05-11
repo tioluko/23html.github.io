@@ -1,0 +1,70 @@
+
+header {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+body, html
+{
+    height: 100%;
+	padding: 0;
+	margin: 0;
+	background: #2c1621;
+    font-family: 'Puritan', sans-serif;
+    color:khaki;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    /* vertical-align: middle;*/
+}
+
+.hidden{
+    display: none;
+    text-align: left; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.bgimage{ 
+    width:800px; height:194px;
+    background-image: url('../img/nbanner2.png'); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pad1{
+    border: 1px solid khaki; 
+    border-radius: 25px;
+    background-color: #2c1621;
+    text-align: center;
+    margin:auto; 
+    max-width: fit-content;
+    overflow: hidden;
+}
+.pad2{
+    padding: 3px solid khaki; 
+    border-radius: 100px;
+    color:#2c1621;
+    background-color: khaki;
+    text-align: center;
+    margin:auto;
+    max-width: fit-content;
+    overflow: hidden;
+    display: none;
+}
+.btn {
+    color:#2c1621;
+    display: inline-block;
+    background-color: khaki;
+    box-sizing: border-box;
+    padding: 12px 28px;
+    transition-duration: 0.5s;
+}
+.btn:hover {
+    background-color: #2c1621;
+    color:khaki;
+}
